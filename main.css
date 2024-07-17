@@ -1,0 +1,212 @@
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #f3f0e9; /* Nude cream background color */
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 15px 0;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem; /* 16px */
+    margin: 0 10px;
+    padding: 15px;
+}
+
+.nav-item:hover {
+    background-color: #333;
+}
+
+/* Headings */
+h5{font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.first-part{
+    background:rgba(0,0,0,0.7)url('images/hero-background.jpg'); /* Background image added here */
+    background-size:cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the background image */
+    background-blend-mode:darken;
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+   
+}
+
+.heading-strong {
+    font-family: 'Lato', sans-serif;
+    color: #d69e3d; /* Gold color */
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.heading-left {
+    font-family: 'Lato', sans-serif;
+    color: #966f2c; /* Dark brown color */
+    text-align: left;
+    margin-left: 15px;
+}
+
+.heading-right{
+    font-family: 'Lato', sans-serif;
+    color: #000000; /* Dark brown color */
+    text-align: left;
+    margin-left: 15px;
+}
+
+.heading-center {
+    font-family: 'Lato', sans-serif;
+    color: #966f2c; /* Dark brown color */
+    text-align: center;
+}
+.heading-center1 {
+    font-family: 'Lato', sans-serif;
+    color: #000000; /* Dark brown color */
+    text-align: center;
+}
+
+/* Responsive Typography */
+@media (max-width: 600px) { /* Mobile */
+    h1 {
+        font-size: 2.027rem; /* 32.44px */
+    }
+    h2.heading-left, h2.heading-center {
+        font-size: 1.802rem; /* 28.83px */
+    }
+    h3.heading-left, h3.heading-center {
+        font-size: 1.424rem; /* 22.78px */
+    }
+    p {
+        font-size: 1rem; /* 16px */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) { /* Tablet */
+    h1 {
+        font-size: 2.986rem; /* 47.78px */
+    }
+    h2.heading-left, h2.heading-center {
+        font-size: 2.488rem; /* 39.81px */
+    }
+    h3.heading-left, h3.heading-center {
+        font-size: 1.728rem; /* 27.65px */
+    }
+    p {
+        font-size: 1rem; /* 16px */
+    }
+}
+
+@media (min-width: 1025px) { /* Desktop */
+    h1 {
+        font-size: 3.815rem; /* 61.04px */
+    }
+    h2.heading-left, h2.heading-center {
+        font-size: 3.052rem; /* 48.83px */
+    }
+    h3.heading-left, h3.heading-center {
+        font-size: 1.953rem; /* 31.25px */
+    }
+    p {
+        font-size: 1rem; /* 16px */
+    }
+}
+
+/* Text */
+.text-center {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+/* Buttons */
+.buttons-container {
+    text-align: center;
+    font-weight: bold;
+    padding: 68px 0;
+    margin-bottom: 0;
+}
+
+.button-wrapper {
+    display: inline-block;
+}
+
+.button-link {
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    font-weight: bold; /* Bold letters */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Karla', sans-serif;
+}
+
+.button-link:hover {
+    background-color: #d69e3d; /* Gold color */
+    color: black; /* Black text */
+}
+
+/* Gallery and Images */
+.gallery {
+    text-align: center;
+
+}
+
+.gallery-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.group-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    max-width: 50%;
+    box-sizing: border-box; /* Added to ensure padding doesn't affect width */
+}
+
+.image-full {
+    width: 100%;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    width: 100%;
+}
